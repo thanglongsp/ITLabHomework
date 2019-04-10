@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<center><canvas id="canvas" width="400" height="400" style="background-color:#0000; margin-top: 150px;" ></canvas></center>
+
+<script>
+	var canvas = document.getElementById("canvas");
+	var ctx = canvas.getContext("2d");
+	var radius = canvas.height / 2;
+	
+	// *** Phương thức translate() sử dụng để dịch chuyển tọa độ (0,0) sang một vị trí mới trong canvas.
+	// x	Giá trị thêm vào theo chiều ngang (Tọa độ X)
+	// y	Giá trị thêm vào theo chiều dọc (Tọa độ Y)
+	ctx.translate(radius, radius); // draw black squares shape
+	radius = radius * 0.9
+
+	// *** setInterval
+	// Hàm setInterval() có cú pháp và chức năng giống như hàm setTimeout(), tuy nhiên với hàm setInterval() thì số lần thực hiện lã mãi mãi.
+	setInterval(drawClock, 1000); // update after one second 
+
+function drawClock() {
+	drawFace(ctx, radius);
+	drawNumbers(ctx, radius);
+	drawTime(ctx, radius);
+}
+
+function drawFace(ctx, radius) {
+	var grad;
+	
+	//draw arc white in site
+	// *** beginPath
+	// để bắt đầu nét vẽ
+	ctx.beginPath(); 
+	ctx.arc(0, 0, radius, 0, 2*Math.PI);
+	ctx.fillStyle = 'white';
+	ctx.fill();
+	
+	// *** createRadialGradient tạo ra một đối tượng dải màu dạng tròn.
+	// x0	Tọa độ X của tâm đường tròn bắt đầu dải màu
+	// y0	Tọa độ Y của tâm đường tròn bắt đầu dải màu
+	// r0	Bán kính của đường tròn bắt đầu
+	// x1	Tọa độ X của tâm đường tròn kết thúc dải màu
+	// y1	Tọa độ Y của tâm đường tròn kết thúc dải màu
+	// r1	Bán kính của đường tròn kết thúc
+	grad = ctx.createRadialGradient(0, 0, radius*0.95, 0, 0, radius*1.05); 
+	// *** addColorStop
+	// stop	Có giá trị từ 0.0 đến 1.0 thể hiển vị trí của màu trong dải màu
+	// color	Giá trị màu sẽ hiển thị tại ví trí được chỉ định trong tham số stop
+	grad.addColorStop(0, '#333');
+	grad.addColorStop(0.5, 'white');
+	grad.addColorStop(1, '#333');
+	// *** context.strokeStyle=color|gradient|pattern;
+	// color	Giá trị màu của viền. Giá trị mặc định là #000000 (màu đen)
+	// gradient	Dải màu (dạng thẳng hoặc dạng tròn) sử dụng để tạo dải màu cho viền
+	// pattern	Mẫu họa tiết sử dụng để tạo họa tiết cho viền
+	ctx.strokeStyle = grad;
+	// *** Cú pháp JavaScript: context.lineWidth=number
+	// number	Độ rộng của đường kẻ hiện tại, tính bằng pixels
+	ctx.lineWidth = radius*0.1;
+	// Phương thức stroke() để hiển thị nét vẽ mà bạn đã định nghĩa với các phương thức moveTo() và lineTo(). Mặc định là màu đen.
+	ctx.stroke();
+	
+	ctx.beginPath();
+	ctx.arc(0, 0, radius*0.1, 0, 2*Math.PI);
+	ctx.fillStyle = '#333';
+	// Phương thức fill() dùng để đổ màu lên hình hiện tại. Mặc định là màu đen.
+	ctx.fill();
+}
+
+function drawNumbers(ctx, radius) {
+	var ang;
+	var num;
+	// *** font
+	// Thuộc tính font được sử dụng để thiết lập hoặc trả về các thuộc tính cho chữ nội dung trong canvas.
+	// Thuộc tính font sử dụng cú pháp tương tự như thuộc tính font trong CSS.
+	ctx.font = radius*0.15 + "px arial";
+	// *** textBaseline 
+	// Thuộc tính textBaseline dùng để thiết lập hoặc trả về đường cơ sở được dùng để hiển thị chữ.
+	ctx.textBaseline="middle";
+	ctx.textAlign="center";
+	for(num = 1; num < 13; num++){
+		// angle	Góc xoay theo đơn vị là radians.
+		// Công thức chuyển từ độ sang radians: độ*Math.PI/180.
+		// Ví dụ: để xoay 5 độ sử dụng: 5*Math.PI/180
+		ang = num * Math.PI / 6;
+		// ***rotate() được sử dụng để xoay hình trong canvas.
+		ctx.rotate(ang);
+		ctx.translate(0, -radius*0.85);
+		ctx.rotate(-ang);
+		// *** fillText
+		// text	Nội dung để hiển thị trên Canvas
+		// x	Tọa độ X điểm bắt đầu viết chữ
+		// y	Tọa độ Y điểm bắt đầu viết chữ
+		ctx.fillText(num.toString(), 0, 0);
+		ctx.rotate(ang);
+		ctx.translate(0, radius*0.85);
+		ctx.rotate(-ang);
+	}
+}
+
+function drawTime(ctx, radius){
+    var now = new Date();
+    var hour = now.getHours();
+    var minute = now.getMinutes();
+    var second = now.getSeconds();
+    //hour
+    hour = hour % 12;
+    hour = (hour*Math.PI/6) + (minute*Math.PI/(6*60)) + (second*Math.PI/(360*60));
+    drawHand(ctx, hour, radius*0.5, radius*0.07);
+    //minute
+    minute = (minute*Math.PI/30)+(second*Math.PI/(30*60));
+    drawHand(ctx, minute, radius*0.8, radius*0.07);
+    // second
+    second = (second*Math.PI/30);
+    drawHand(ctx, second, radius*0.9, radius*0.02);
+}
+
+function drawHand(ctx, pos, length, width) {
+    ctx.beginPath();
+    // Thuộc tính lineWidth property dùng để thiết lập hoặc trả về độ rộng của đường kẻ hiện tại, tính bằng pixels.
+    ctx.lineWidth = width;	
+
+    // round	Thêm mũ tròn vào 2 đầu của đường thẳng.
+    // Thuộc tính lineCap dùng để thiết lập hoặc trả về kiểu mũ cho 2 đầu dòng kẻ.
+    ctx.lineCap = "round";
+
+    // Phương thức moveTo() dùng để di chuyển nét vẽ tới một điểm trên canvas mà không tạo ra đường kẻ.
+    ctx.moveTo(0,0);
+
+    ctx.rotate(pos);
+
+    // Phương thức lineTo() dùng để thêm một điểm mới và tạo một đường thẳng từ điểm đó tới điểm hiện tại trên canvas (đường thẳng chưa hiển thị trên canvas).
+    // Sử dụng phương thức stroke() để thể hiện nét vẽ trên canvas.
+    ctx.lineTo(0, -length);
+    ctx.stroke();
+    ctx.rotate(-pos);
+}
+</script>
+
+</body>
+</html>
