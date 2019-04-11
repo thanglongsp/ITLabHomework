@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package BAI4.BAI1;
+package bai4.bai1;
 
 import java.sql.CallableStatement;
 import java.sql.ResultSet;
@@ -22,6 +22,7 @@ public class Main {
 
         CallableStatement stmt;
         db.conn.prepareCall("{call selectAll()}");
+        ResultSet rs;
         int select;
 
         do {
@@ -39,14 +40,14 @@ public class Main {
             switch (select) {
                 case 1:
                     stmt = db.conn.prepareCall("{call selectAll()}");
-                    ResultSet rs1 = stmt.executeQuery();
+                    rs = stmt.executeQuery();
                     System.out.println("\tID\tNAME\t\tSCHOOL\tAGE");
-                    while (rs1.next()) {
+                    while (rs.next()) {
                         System.out.println(
-                                "\t" + rs1.getString("id")
-                                + "\t" + rs1.getString("name")
-                                + "\t" + rs1.getString("school")
-                                + "\t" + rs1.getString("age")
+                                "\t" + rs.getString("id")
+                                + "\t" + rs.getString("name")
+                                + "\t" + rs.getString("school")
+                                + "\t" + rs.getString("age")
                         );
                     }
                     break;
@@ -58,15 +59,15 @@ public class Main {
                     stId = (new Scanner(System.in)).nextInt();
 
                     stmt.setInt(1, stId);
-                    ResultSet rs2 = stmt.executeQuery();
+                    rs = stmt.executeQuery();
 
                     System.out.println("\tID\tNAME\t\tSCHOOL\tAGE");
-                    while (rs2.next()) {
+                    while (rs.next()) {
                         System.out.println(
-                                "\t" + rs2.getString("id")
-                                + "\t" + rs2.getString("name")
-                                + "\t" + rs2.getString("school")
-                                + "\t" + rs2.getString("age")
+                                "\t" + rs.getString("id")
+                                + "\t" + rs.getString("name")
+                                + "\t" + rs.getString("school")
+                                + "\t" + rs.getString("age")
                         );
                     }
                     break;
@@ -78,15 +79,15 @@ public class Main {
                     stName = (new Scanner(System.in)).nextLine();
 
                     stmt.setString(1, stName);
-                    ResultSet rs3 = stmt.executeQuery();
+                    rs = stmt.executeQuery();
 
                     System.out.println("\tID\tNAME\t\tSCHOOL\tAGE");
-                    while (rs3.next()) {
+                    while (rs.next()) {
                         System.out.println(
-                                "\t" + rs3.getString("id")
-                                + "\t" + rs3.getString("name")
-                                + "\t" + rs3.getString("school")
-                                + "\t" + rs3.getString("age")
+                                "\t" + rs.getString("id")
+                                + "\t" + rs.getString("name")
+                                + "\t" + rs.getString("school")
+                                + "\t" + rs.getString("age")
                         );
                     }
                     break;
@@ -99,14 +100,14 @@ public class Main {
                     stmt.executeQuery();
                     // show result
                     stmt = db.conn.prepareCall("{call selectAll()}");
-                    ResultSet rs4 = stmt.executeQuery();
+                    rs = stmt.executeQuery();
                     System.out.println("\tID\tNAME\t\tSCHOOL\tAGE");
-                    while (rs4.next()) {
+                    while (rs.next()) {
                         System.out.println(
-                                "\t" + rs4.getString("id")
-                                + "\t" + rs4.getString("name")
-                                + "\t" + rs4.getString("school")
-                                + "\t" + rs4.getString("age")
+                                "\t" + rs.getString("id")
+                                + "\t" + rs.getString("name")
+                                + "\t" + rs.getString("school")
+                                + "\t" + rs.getString("age")
                         );
                     }
                     break;
@@ -142,14 +143,14 @@ public class Main {
 
                     // show result
                     stmt = db.conn.prepareCall("{call selectAll()}");
-                    ResultSet rs5 = stmt.executeQuery();
+                    rs = stmt.executeQuery();
                     System.out.println("\tID\tNAME\t\tSCHOOL\tAGE");
-                    while (rs5.next()) {
+                    while (rs.next()) {
                         System.out.println(
-                                "\t" + rs5.getString("id")
-                                + "\t" + rs5.getString("name")
-                                + "\t" + rs5.getString("school")
-                                + "\t" + rs5.getString("age")
+                                "\t" + rs.getString("id")
+                                + "\t" + rs.getString("name")
+                                + "\t" + rs.getString("school")
+                                + "\t" + rs.getString("age")
                         );
                     }
                     break;
