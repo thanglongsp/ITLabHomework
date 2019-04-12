@@ -10,7 +10,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-    
+
     <dependencies>
         <dependency>
             <groupId>mysql</groupId>
@@ -18,4 +18,6 @@
             <version>8.0.15</version>
         </dependency>
     </dependencies>
+
+    <name>BTVN_TrungNT9</name>
 </project>

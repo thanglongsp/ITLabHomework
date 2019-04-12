@@ -31,8 +31,8 @@ public class Main {
                     + "\t2. Select by ID \n"
                     + "\t3. Select by Name \n"
                     + "\t4. Delete by ID \n"
-                    + "\t5.Insert \n"
-                    + "\t6.Exit \n"
+                    + "\t5. Insert \n"
+                    + "\t6. Exit \n"
             );
             System.out.print("Your select : ");
             select = (new Scanner(System.in)).nextInt();
