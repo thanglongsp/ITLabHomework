@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4406e41e-519c-43c4-9c1f-a8cdcf23c5ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ITLabHomework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_KhanhVD3/BTVN_KhanhVD3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_TrungNT9/BTVN_TrungNT9.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai2/ThreadOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai2/ThreadThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai2/ThreadTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_KhanhVD3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_KhanhVD3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_TrungNT9/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_TrungNT9/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI4/BAI1/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai1/DBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI4/BAI1/FileProcedure.sql" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai1/FileProcedure.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI4/BAI1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/ThreadRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/ThreadWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/TCPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/TCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/Server.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BTVN_TrungNT9/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,11 +23,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="541">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/ThreadRead.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="535">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/ThreadWrite.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,6 +116,12 @@
         <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai2/DBConnectionPool.java" />
         <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai2/Main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/TCPClient.java" />
+        <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/TCPServer.java" />
+        <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/Server.java" />
+        <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/Client.java" />
+        <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/ThreadRead.java" />
+        <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/ThreadWrite.java" />
       </list>
     </option>
   </component>
@@ -112,7 +138,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="100" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -124,6 +150,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,7 +162,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,7 +190,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BAI3.BAI1.Client" />
+      <module name="BTVN_TrungNT9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BAI3.BAI1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai4.bai1.Main" />
       <module name="BTVN_TrungNT9" />
@@ -229,16 +268,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BAI3.BAI1.Server" />
+      <module name="BTVN_TrungNT9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BAI3.BAI1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -256,19 +307,24 @@
       <workItem from="1555039463527" duration="1031000" />
       <workItem from="1555040641226" duration="1316000" />
       <workItem from="1555042038712" duration="23832000" />
-      <workItem from="1555073789459" duration="12929000" />
+      <workItem from="1555073789459" duration="16672000" />
+      <workItem from="1555095560420" duration="126000" />
+      <workItem from="1555096885302" duration="112000" />
+      <workItem from="1555206991700" duration="299000" />
+      <workItem from="1555237406144" duration="214000" />
+      <workItem from="1555238975378" duration="6394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39108000" />
+    <option name="totallyTimeSpent" value="49544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18573265" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4982639" visible="true" weight="0.19858612" />
+      <window_info id="Structure" order="1" sideWeight="0.5017361" side_tool="true" weight="0.19858612" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -276,7 +332,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49871466" visible="true" weight="0.30955586" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49807197" weight="0.22476447" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -285,7 +341,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4993573" weight="0.32974428" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5012854" side_tool="true" weight="0.5746972" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50192803" side_tool="true" weight="0.6769852" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4993573" weight="0.32974428" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -303,13 +359,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom1.xml" />
-    <entry file="file://$PROJECT_DIR$/BTVN_KhanhVD3/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/BTVN_TrungNT9.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -366,16 +415,6 @@
           <folding>
             <element signature="e#5671#5672#0" expanded="true" />
             <element signature="e#5695#5696#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="47" column="61" lean-forward="true" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#6273#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -446,6 +485,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_KhanhVD3/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1657">
+          <caret line="50" column="26" lean-forward="true" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI2/BAI2/LearnThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/ThreadWrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/ThreadRead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
