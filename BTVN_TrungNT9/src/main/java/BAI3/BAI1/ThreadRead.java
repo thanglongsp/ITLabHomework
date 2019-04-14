@@ -16,7 +16,8 @@ public class ThreadRead extends Thread {
     }
 
     public void shutdown() throws InterruptedException {
-        ThreadRead.sleep(1000);
+        Thread.sleep(1000);
+        Thread.interrupted();
         running.set(false);
     }
 
