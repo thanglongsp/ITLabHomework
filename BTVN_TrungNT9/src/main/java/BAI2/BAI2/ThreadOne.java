@@ -40,14 +40,14 @@ public class ThreadOne implements Runnable {
         while (true) {
             lock.lock();
             list.add(value);
-            System.out.println("ThreadOne added: " + value + " queue size is " + list.size());
+            System.out.println("ThreadHandle added: " + value + " queue size is " + list.size());
             value++;
             cond.signal();
             Date now = new Date();
             time += now.compareTo(start);
             System.out.println(time);
             if (time > 4) {
-                System.out.println("Interupted Thread One");
+                System.out.println("Interupted Thread Handle");
                 try {
                     cond.await();
                 } catch (InterruptedException ex) {

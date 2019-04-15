@@ -17,8 +17,7 @@ public class ThreadRead extends Thread {
 
     public void shutdown() throws InterruptedException {
         Thread.sleep(1000);
-        Thread.interrupted();
-        running.set(false);
+        Thread.currentThread().interrupt();
     }
 
     @Override
@@ -29,7 +28,8 @@ public class ThreadRead extends Thread {
                 is = new DataInputStream(socket.getInputStream());
                 System.out.println("From " + name + ":" + is.readUTF());
             } catch (IOException e) {
-                e.printStackTrace();
+                running.set(false);
+                System.out.println("disconnect ...");
                 try {
                     shutdown();
                 } catch (InterruptedException ex) {

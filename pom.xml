@@ -3,10 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.topica.vn</groupId>
     <artifactId>ItLabHomeWork</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
         <module>BTVN_KhanhVD3</module>
         <module>BTVN_TrungNT9</module>
+        <module>thanglongsp.tuhoc.java</module>
     </modules>
 </project>

@@ -6,15 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="thanglongsptuhocjava" />
         <module name="BTVN_TrungNT9" />
         <module name="BTVN_KhanhVD3" />
-        <module name="ITLabHomework" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="BTVN_KhanhVD3" target="1.8" />
       <module name="BTVN_TrungNT9" target="1.8" />
       <module name="ITLabHomework" target="1.5" />
+      <module name="thanglongsptuhocjava" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

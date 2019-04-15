@@ -18,8 +18,7 @@ public class ThreadWrite extends Thread {
 
     public void shutdown() throws InterruptedException {
         Thread.sleep(1000);
-        Thread.interrupted();
-        running.set(false);
+        Thread.currentThread().interrupt();
     }
 
     @Override
@@ -30,12 +29,13 @@ public class ThreadWrite extends Thread {
                 os = new DataOutputStream(socket.getOutputStream());
                 os.writeUTF(new Scanner(System.in).nextLine());
             } catch (IOException e) {
+                System.out.println("disconnect ...");
+                running.set(false);
                 try {
                     shutdown();
                 } catch (InterruptedException ex) {
                     ex.printStackTrace();
                 }
-                e.printStackTrace();
             }
         }
     }
