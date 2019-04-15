@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4406e41e-519c-43c4-9c1f-a8cdcf23c5ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/thanglongsp.tuhoc.java/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/Shutdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/Synchronization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/ThreadPoolExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/WaitNotify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thanglongsp.tuhoc.java/thanglongsptuhocjava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/QueueLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/TimeOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/annotation/example/AnnotationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/exception/example/ExceptionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/exception/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI2/BAI2/ThreadOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI2/BAI2/ThreadOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/ThreadRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/ThreadRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/ThreadWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/ThreadWrite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai2/ThreadOne.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai2/ThreadThree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai2/ThreadTwo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/BTVN_TrungNT9/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,8 +37,21 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ITLabHomework" />
+  </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/annotation/example/AnnotationDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -115,6 +118,14 @@
         <option value="$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/ThreadPool.java" />
         <option value="$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/ThreadPoolExample.java" />
         <option value="$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/WaitNotify.java" />
+        <option value="$PROJECT_DIR$/thanglongsp.tuhoc.java/src/TimeOutThread/Main.java" />
+        <option value="$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/TimeOut.java" />
+        <option value="$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/DeadLock.java" />
+        <option value="$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/QueueLinkedList.java" />
+        <option value="$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/ExceptionExample.java" />
+        <option value="$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/exception/example/ExceptionExample.java" />
+        <option value="$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/exception/example/Main.java" />
+        <option value="$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/annotation/example/AnnotationDemo.java" />
       </list>
     </option>
   </component>
@@ -175,6 +186,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ITLabHomework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITLabHomework" type="462c0819:PsiDirectoryNode" />
+              <item name="thanglongsp.tuhoc.java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -188,6 +208,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -212,10 +235,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WaitNotify">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.AnnotationDemo">
+    <configuration name="AnnotationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotation.example.AnnotationDemo" />
       <module name="thanglongsptuhocjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="annotation.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DeadLock" />
+      <module name="thanglongsptuhocjava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.example.Main" />
+      <module name="thanglongsptuhocjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -297,29 +346,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shutdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Shutdown" />
+    <configuration name="QueueLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QueueLinkedList" />
       <module name="thanglongsptuhocjava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Synchronization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Synchronization" />
-      <module name="thanglongsptuhocjava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadPoolExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadPoolExample" />
-      <module name="thanglongsptuhocjava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WaitNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WaitNotify" />
+    <configuration name="TimeOut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TimeOut" />
       <module name="thanglongsptuhocjava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -327,19 +362,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Synchronization" />
-      <item itemvalue="Application.Shutdown" />
-      <item itemvalue="Application.ThreadPoolExample" />
-      <item itemvalue="Application.WaitNotify" />
+      <item itemvalue="Application.TimeOut" />
+      <item itemvalue="Application.DeadLock" />
+      <item itemvalue="Application.QueueLinkedList" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.AnnotationDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WaitNotify" />
-        <item itemvalue="Application.ThreadPoolExample" />
-        <item itemvalue="Application.Synchronization" />
-        <item itemvalue="Application.Shutdown" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.AnnotationDemo" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.QueueLinkedList" />
+        <item itemvalue="Application.DeadLock" />
+        <item itemvalue="Application.TimeOut" />
       </list>
     </recent_temporary>
   </component>
@@ -363,26 +398,27 @@
       <workItem from="1555237406144" duration="214000" />
       <workItem from="1555238975378" duration="23912000" />
       <workItem from="1555289135527" duration="8739000" />
-      <workItem from="1555307199933" duration="438000" />
+      <workItem from="1555307199933" duration="9405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76239000" />
+    <option name="totallyTimeSpent" value="85206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982639" visible="true" weight="0.21336761" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.496875" visible="true" weight="0.21336761" />
       <window_info id="Structure" order="1" sideWeight="0.5017361" side_tool="true" weight="0.19858612" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.503125" side_tool="true" weight="0.21336761" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4974293" weight="0.5962315" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4974293" visible="true" weight="0.18438762" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -392,7 +428,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4993573" weight="0.32974428" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5025707" side_tool="true" weight="0.6742934" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4993573" weight="0.46702558" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4993573" weight="0.61238223" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -625,9 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thanglongsp.tuhoc.java/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/synchronization/DemoThreadSynchronization.java" />
     <entry file="file://$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/SynchronizationThread/Main.java" />
     <entry file="file://$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/ThreadPoolExample.java">
@@ -683,6 +716,81 @@
             <element signature="e#400#401#0" expanded="true" />
             <element signature="e#888#889#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thanglongsp.tuhoc.java/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thanglongsp.tuhoc.java/src/TimeOutThread/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding>
+            <element signature="e#62#63#0" expanded="true" />
+            <element signature="e#98#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/DeadLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/TimeOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/QueueLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#120#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/exception/example/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/exception/example/ExceptionExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/annotation/example/AnnotationDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
         </state>
       </provider>
     </entry>
