@@ -43,6 +43,6 @@ public class User {
 
     @Override
     public String toString() {
-        return "name : " + name + "\nage : " + age + "\nGirl Friend : " + getGirlFriends();
+        return "name : " + name + ", age : " + age + ", Girl Friend : " + getGirlFriends();
     }
 }

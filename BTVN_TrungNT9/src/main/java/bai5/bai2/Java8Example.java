@@ -1,23 +1,28 @@
 package bai5.bai2;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Optional;
+import java.math.BigDecimal;
+import java.util.*;
 
 public class Java8Example {
     public static void main(String[] args) {
         List<User> users = Arrays.asList(
                 new User("thanglong", 23, Arrays.asList("MinhHang", "NgocHa", "MyTam")),
                 new User("thanglong1", 24, Arrays.asList("MinhHang1", "NgocHa1", "MyTam1")),
-                new User("thanglong2", 25, Arrays.asList("MinhHang2", "NgocHa2", "MyTam2"))
+                new User("thanglong2", 25, Arrays.asList("MinhHang2", "NgocHa2", "MyTam2")),
+                new User("thanglong3", 25, Arrays.asList("MinhHang3", "NgocHa3", "MyTam3"))
         );
 
         // show  users
+        System.out.println("Show list user");
+        System.out.println("----------------------");
+        users.stream().forEach(System.out::println);
+
+        System.out.println("\nGroup by age");
+        Map<BigDecimal, List<User>> grByAge = new HashMap<>();
         for (User user : users) {
-            System.out.println(user);
-            System.out.println("-----------------");
+            grByAge.computeIfAbsent(BigDecimal.valueOf(user.getAge()), k -> new ArrayList<>()).add(user);
         }
+        System.out.println(grByAge);
 
         // compare by age
         Comparator<User> comparator = Comparator.comparing(User::getAge);
