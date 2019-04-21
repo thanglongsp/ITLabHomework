@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4406e41e-519c-43c4-9c1f-a8cdcf23c5ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_unknown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_unknown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_unknown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_unknown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_HuyNQ/BTVN_HuyNQ.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_HuyNQ/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_HuyNQ/src/main/java/bai15/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_HuyNQ/src/main/java/bai15/MyAop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_HuyNQ/src/main/java/bai15/MySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BTVN_HuyNQ/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai5/bai2/Java8Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai5/bai2/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_unknown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_unknown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_unknown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_unknown.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -31,6 +17,7 @@
     <ignored path="$PROJECT_DIR$/BTVN_KhanhVD3/target/" />
     <ignored path="$PROJECT_DIR$/thanglongsp.tuhoc.java/target/" />
     <ignored path="$PROJECT_DIR$/BTVN_HuyNQ/target/" />
+    <ignored path="$PROJECT_DIR$/BTVN_Bai16/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,56 +45,14 @@
     <favorites_list name="ITLabHomework" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BTVN_HuyNQ/src/main/java/bai15/MySum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BTVN_HuyNQ/src/main/java/bai15/MyAop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BTVN_HuyNQ/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BTVN_HuyNQ/src/main/java/bai15/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -122,6 +67,7 @@
       <find>closeAllConnections</find>
       <find>toString</find>
       <find>close</find>
+      <find>slf4j</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -136,19 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom1.xml" />
-        <option value="$PROJECT_DIR$/BTVN_KhanhVD3/pom.xml" />
-        <option value="$PROJECT_DIR$/BTVN_TrungNT9/pom.xml" />
-        <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI4/BAI2/ThreadParent.java" />
-        <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI4/BAI2/ThreadTwo.java" />
-        <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI4/BAI2/ThreadOne.java" />
-        <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI4/BAI2/ThreadThree.java" />
-        <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI4/BAI2/Main.java" />
-        <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI4/BAI2/DBConnectionPool.java" />
-        <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai1/Main.java" />
-        <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai2/ThreadThree.java" />
-        <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai2/ThreadTwo.java" />
-        <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai2/DBConnectionPool.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/TCPClient.java" />
         <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/TCPServer.java" />
@@ -183,6 +116,23 @@
         <option value="$PROJECT_DIR$/BTVN_HuyNQ/src/main/java/bai15/Application.java" />
         <option value="$PROJECT_DIR$/BTVN_HuyNQ/src/main/java/bai15/MyAop.java" />
         <option value="$PROJECT_DIR$/BTVN_HuyNQ/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/service/ItemService.java" />
+        <option value="$PROJECT_DIR$/BTVN_Bai16/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/service/impl/ItemImpl.java" />
+        <option value="$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/service/impl/CategoryImpl.java" />
+        <option value="$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/model/Category.java" />
+        <option value="$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/model/Item.java" />
+        <option value="$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/model/Type.java" />
+        <option value="$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/Application.java" />
+        <option value="$PROJECT_DIR$/BTVN_Bai16/pom.xml" />
+        <option value="$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/repository/ItemRepository.java" />
+        <option value="$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/repository/TypeRepository.java" />
+        <option value="$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/repository/CategoryRepository.java" />
+        <option value="$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/config/JPAConfig.java" />
+        <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai5/bai2/main.java" />
+        <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai5/bai2/User.java" />
+        <option value="$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai5/bai2/Java8Example.java" />
       </list>
     </option>
   </component>
@@ -195,21 +145,48 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="BTVN_Bai16" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="BTVN_Bai16" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="BTVN_Bai16" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-autoconfigure:2.1.4.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="BTVN_HuyNQ" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="BTVN_HuyNQ" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="134" />
-    <option name="y" value="-20" />
-    <option name="width" value="1400" />
-    <option name="height" value="769" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="262" />
+    <option name="y" value="71" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,49 +197,6 @@
             <path>
               <item name="ITLabHomework" type="b2602c69:ProjectViewProjectNode" />
               <item name="ITLabHomework" type="462c0819:PsiDirectoryNode" />
-              <item name="BTVN_HuyNQ" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ITLabHomework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ITLabHomework" type="462c0819:PsiDirectoryNode" />
-              <item name="BTVN_HuyNQ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ITLabHomework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ITLabHomework" type="462c0819:PsiDirectoryNode" />
-              <item name="BTVN_HuyNQ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ITLabHomework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ITLabHomework" type="462c0819:PsiDirectoryNode" />
-              <item name="BTVN_HuyNQ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ITLabHomework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ITLabHomework" type="462c0819:PsiDirectoryNode" />
-              <item name="BTVN_HuyNQ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bai15" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ITLabHomework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ITLabHomework" type="462c0819:PsiDirectoryNode" />
-              <item name="BTVN_HuyNQ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ITLabHomework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ITLabHomework" type="462c0819:PsiDirectoryNode" />
               <item name="BTVN_TrungNT9" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -270,13 +204,45 @@
               <item name="ITLabHomework" type="462c0819:PsiDirectoryNode" />
               <item name="BTVN_TrungNT9" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITLabHomework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITLabHomework" type="462c0819:PsiDirectoryNode" />
+              <item name="BTVN_TrungNT9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITLabHomework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITLabHomework" type="462c0819:PsiDirectoryNode" />
+              <item name="BTVN_TrungNT9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITLabHomework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITLabHomework" type="462c0819:PsiDirectoryNode" />
+              <item name="BTVN_TrungNT9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bai5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITLabHomework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITLabHomework" type="462c0819:PsiDirectoryNode" />
+              <item name="BTVN_TrungNT9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bai5" type="462c0819:PsiDirectoryNode" />
+              <item name="bai2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -287,25 +253,30 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/sample-java-spring-basic-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ITLabHomework" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ITLabHomework\BTVN_HuyNQ\src\main\resources" />
       <recent name="D:\ITLabHomework\BTVN_HuyNQ\src\main\java\bai15" />
       <recent name="D:\ITLabHomework\BTVN_HuyNQ\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.topica.vn.bai16.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ITLabHomework\BTVN_Bai16\src\main\resources" />
+      <recent name="D:\ITLabHomework" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -320,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Application.Java8Example">
     <configuration name="AnnotationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="annotation.example.AnnotationDemo" />
       <module name="thanglongsptuhocjava" />
@@ -334,9 +305,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DeadLock" />
-      <module name="thanglongsptuhocjava" />
+    <configuration name="Java8Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai5.bai2.Java8Example" />
+      <module name="BTVN_TrungNT9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai5.bai2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -431,9 +408,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QueueLinkedList" />
-      <module name="thanglongsptuhocjava" />
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="BTVN_Bai16" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.topica.vn.bai16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.topica.vn.bai16.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -453,19 +436,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.DeadLock" />
-      <item itemvalue="Application.QueueLinkedList" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.AnnotationDemo" />
+      <item itemvalue="Application.Java8Example" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Application (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Java8Example" />
+        <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Application.AnnotationDemo" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.QueueLinkedList" />
-        <item itemvalue="Application.DeadLock" />
       </list>
     </recent_temporary>
   </component>
@@ -492,17 +475,23 @@
       <workItem from="1555307199933" duration="9762000" />
       <workItem from="1555380488351" duration="15835000" />
       <workItem from="1555426052701" duration="18361000" />
+      <workItem from="1555662838320" duration="2581000" />
+      <workItem from="1555666430494" duration="9283000" />
+      <workItem from="1555677396500" duration="4262000" />
+      <workItem from="1555848514183" duration="2331000" />
+      <workItem from="1555852064858" duration="309000" />
+      <workItem from="1555854816280" duration="767000" />
+      <workItem from="1555856514608" duration="1503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119759000" />
+    <option name="totallyTimeSpent" value="140864000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.496875" visible="true" weight="0.18894601" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496875" visible="true" weight="0.20726173" />
       <window_info id="Structure" order="1" sideWeight="0.5017361" side_tool="true" weight="0.19858612" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -511,7 +500,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.503125" side_tool="true" weight="0.21336761" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4974293" weight="0.22745626" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" weight="0.81178397" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44279945" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -520,8 +509,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4993573" weight="0.32974428" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5025707" side_tool="true" weight="0.6742934" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4993573" weight="0.49528936" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5030257" side_tool="true" weight="0.80360067" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4993573" weight="0.41243863" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -542,166 +531,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai1/FileProcedure.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai2/ThreadTwo.java" />
-    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai2/DBConnectionPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1918">
-          <caret line="101" column="33" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3920#3921#0" expanded="true" />
-            <element signature="e#3974#3975#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai2/ThreadThree.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_KhanhVD3/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1657">
-          <caret line="50" column="26" lean-forward="true" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/net/ServerSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="506" column="18" selection-start-line="506" selection-start-column="18" selection-end-line="506" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/io/DataInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="588" column="24" selection-start-line="588" selection-start-column="24" selection-end-line="588" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai2/ThreadHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI2/BAI2/LearnThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai4/bai2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/Reference/TimeoutSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1487">
-          <caret line="90" column="31" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#2228#2229#0" expanded="true" />
-            <element signature="e#2294#2295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="338" column="7" selection-start-line="338" selection-start-column="7" selection-end-line="339" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="1002" column="7" selection-start-line="1002" selection-start-column="7" selection-end-line="1002" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI2/BAI2/ThreadOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="501" selection-start-line="501" selection-end-line="501" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/ThreadWrite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/BAI3/BAI1/ThreadRead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="31" column="53" lean-forward="true" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/synchronization/DemoThreadSynchronization.java" />
     <entry file="file://$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/SynchronizationThread/Main.java" />
     <entry file="file://$PROJECT_DIR$/thanglongsp.tuhoc.java/src/main/java/ThreadPoolExample.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -826,59 +655,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BTVN_HuyNQ/src/main/java/bai15/MyAop.class" />
     <entry file="file://$PROJECT_DIR$/BTVN_HuyNQ/src/main/java/bai15/MySum.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Autowired.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="81" column="17" lean-forward="true" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45056">
-          <caret line="2123" column="7" selection-start-line="2123" selection-start-column="7" selection-end-line="2123" selection-end-column="7" />
-          <folding>
-            <element signature="e#82616#82617#0" expanded="true" />
-            <element signature="e#82667#82668#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="64" column="15" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="139" column="11" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="343" selection-start-line="343" selection-end-line="343" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="83" column="11" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2-sources.jar!/org/aspectj/lang/ProceedingJoinPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Autowired.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/String.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/NumberFormatException.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.2.RELEASE/spring-beans-5.1.2.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.2.RELEASE/spring-context-5.1.2.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2-sources.jar!/org/aspectj/lang/ProceedingJoinPoint.java" />
     <entry file="file://$PROJECT_DIR$/BTVN_HuyNQ/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -886,43 +669,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2-sources.jar!/org/aspectj/lang/JoinPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="78" column="8" lean-forward="true" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BTVN_HuyNQ/src/main/java/bai15/MySum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2-sources.jar!/org/aspectj/lang/JoinPoint.java" />
     <entry file="file://$PROJECT_DIR$/BTVN_HuyNQ/src/main/java/bai15/MyAop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="277">
+          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_HuyNQ/src/main/java/bai15/MySum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BTVN_HuyNQ/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BTVN_HuyNQ/src/main/java/bai15/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="453">
+          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1364">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai16/src/main/resources/META-INF/orm.xml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/service/ItemService.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.2.RELEASE/spring-data-commons-2.1.2.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java" />
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/service/CategoryService.java" />
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/model/Item.java" />
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/model/Type.java" />
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/repository/CategoryRepository.java" />
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/repository/ItemRepository.java" />
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/repository/TypeRepository.java" />
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/config/JPAConfig.java" />
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/service/impl/CategoryImpl.java" />
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai16/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/service/impl/ItemImpl.java" />
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai16/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/Application.java" />
+    <entry file="file://$PROJECT_DIR$/BTVN_Bai16/src/main/java/com/topica/vn/bai16/model/Category.java" />
+    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/Reference/TimeoutSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-573">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/stream/Stream.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-884">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#11843#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai5/bai2/Java8Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BTVN_TrungNT9/src/main/java/bai5/bai2/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -990,10 +839,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.0.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.6816092" />
               </list>
             </option>
           </splitter-proportions>

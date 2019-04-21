@@ -13,6 +13,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="BTVN_Bai16" target="8" />
       <module name="BTVN_HuyNQ" target="6" />
       <module name="BTVN_KhanhVD3" target="1.8" />
       <module name="BTVN_TrungNT9" target="1.8" />
